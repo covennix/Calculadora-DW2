@@ -11,7 +11,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #233329, #41b883);
+  background: linear-gradient(to right, #020202, #791212);
 }
 
 .grid-container {
@@ -33,11 +33,11 @@ body {
 }
 .grid-container > button:hover {
   background-color: #eee;
-  color: #111;
+  color: #000000;
 }
 
 .grid-container > .operador {
-  background: #41b88375;
+  background: #6e2222cc;
 }
 
 .span-2 {
