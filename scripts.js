@@ -105,7 +105,7 @@ function adicionaNumero(calculadora, numero) {
  * - copiar operandoAtual para o operandoAnterior, deixando a calculadora preparada para receber o próximo número
  */
 function escolheOperador(calculadora, operador) {
-  if (calculadora.operandoAtual == "") return alert("Formato inválido")
+  if (calculadora.operandoAtual == "") return
   if (calculadora.operandoAnterior != ""){
     executaCalculo(calculadora)
   }
